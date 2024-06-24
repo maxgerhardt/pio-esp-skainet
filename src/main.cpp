@@ -17,7 +17,9 @@
 #include "esp_mn_iface.h"
 #include "esp_mn_models.h"
 #include "esp_board_init.h"
+extern "C" {
 #include "speech_commands_action.h"
+}
 #include "model_path.h"
 #include <Arduino.h>
 
